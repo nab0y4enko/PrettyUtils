@@ -25,7 +25,7 @@ public enum PrettyInfoPlistExecutor {
         switch object {
         case let value as T:
             return value
-        case let string as String:
+        case let string as String where string.isEmpty == false:
             guard let value = T(string) else {
                 fallthrough
             }
