@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name = "PrettyUtils"
-    spec.version = "0.1"
+    spec.version = "0.2"
     spec.summary = "A pretty utils for iOS/macOS developing"
     spec.homepage = "https://github.com/nab0y4enko/PrettyUtils"
     spec.license = 'MIT'
@@ -16,6 +16,6 @@ Pod::Spec.new do |spec|
     spec.osx.deployment_target = '10.14'
 
     spec.source_files = [
-        'PrettyUtils/**/*.swift',
+        'Sources/**/*.swift',
     ]
 end
